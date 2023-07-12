@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Jost:wght@700&family=Lato&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #646E79;
+}
+
+/* ====================================
+Header section start
+==================================== */
+
+#header .continar {
+  max-width: 1200px;
+  height: 873px;
+  margin: 0 auto;
+  background: #1B1966;
+}
+
+#header .continar .inner_header {
+  position: relative;
+}
+
+#header .continar .inner_header .logo {
+  display: flex;
+  justify-content: center;
+  padding: 83px 0 35px 0;
+}
+
+#header .continar .inner_header .logo h1 {
+  color: #FFF;
+  font-family: 'Jost', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#header .continar .inner_header h4 {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#header .continar .inner_header p {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+#header .continar .inner_header .image1 {
+  position: absolute;
+  top: 0;
+  right: 24px;
+}
+
+#header .continar .inner_header .image2 {
+  position: absolute;
+  bottom: -575px;
+  left: 0;
+}
+
+#header .continar .inner_header .image3 {
+  position: absolute;
+  bottom: -575px;
+  right: 44px;
+}
+
+#header .continar .inner_header .image4 {
+  position: absolute;
+  bottom: -575px;
+  left: 44px;
+}
+
+
+/* ====================================
+file_info section start
+==================================== */
+#file_info {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#file_info .inner_file_info {
+  padding: 85px 0 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#file_info .victorFlow {
+  margin-left: 60px;
+}
+
+#file_info .victorFlow .inner_victorFlow {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+#file_info .victorFlow .inner_victorFlow .text h4 {
+  color: #0D161A;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#file_info .victorFlow .inner_victorFlow .text p {
+  color: #171214;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#file_info .victorFlow h4 {
+  color: #0D161A;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+
+#file_info .victorFlow .inner_follow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+#file_info .victorFlow .inner_follow .follow_text {
+  margin-left: 45px;
+}
+
+#file_info .victorFlow .inner_follow .twitter {
+  margin-left: 33px;
+}
+
+#file_info .victorFlow .inner_follow .follow_text a {
+  color: #0D161A;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 10px 10px 0;
+  display: inline-block;
+}
+
+#file_info .victorFlow .inner_follow .follow_text p {
+  color: #646E79;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#file_info .fileInfo {
+  margin-right: 60px;
+}
+
+#file_info .fileInfo h2 {
+  color: #0D161A;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 24px 0;
+}
+
+#file_info .fileInfo .app_details {
+  width: 561px;
+  height: 413px;
+  border-radius: 20px;
+  border: 2px solid #E0E0E0;
+  background: #FFF;
+  padding: 60px 45px 57px 44px;
+}
+
+#file_info .fileInfo .app_details .inner_app {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 42px;
+}
+
+#file_info .fileInfo .app_details .inner_app .figma_logo {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(180deg, #32323B 0%, #2C2B34 100%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#file_info .fileInfo .inner_app .app_text h4 {
+  color: #0D161A;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#file_info .fileInfo .inner_app .app_text h4 span{
+  color: #4353FF;
+}
+#file_info .fileInfo .inner_app .app_text p {
+  color: #646E79;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+#file_info .fileInfo .app_details button{
+  border-radius: 10px;
+  background: #4353FF;
+  border: none;
+}
+#file_info .fileInfo .app_details button a{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 15px 104px;
+  display: inline-block;
+}
+
+
+
+
+/* ====================================
+Service section start
+==================================== */
+#service_section {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#service_section .inner_service_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#service_section .inner_service_section .image_section {
+  margin-left: 60px;
+}
+
+#service_section .image_section h3,
+#service_section .fonts_section h3 {
+  color: #202020;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#service_section .details .img_logo {
+  display: flex;
+  align-items: center;
+}
+
+#service_section .details .img_logo a {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0 12px;
+}
+
+#service_section .image_section .details p {
+  color: #646E79;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 25px 0 30px 0;
+}
+
+#service_section .image_section .details p a {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#service_section .inner_service_section .fonts_section {
+  margin-right: 130px;
+}
+
+#service_section .fonts_section .details p {
+  color: #646E79;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 25px 0 30px 0;
+}
+
+#service_section .fonts_section .details p a {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+/* ====================================
+Footer section start
+==================================== */
+#Footer_section {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #0D161A;
+}
+
+#Footer_section p {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 23px 0;
+}
+
+#Footer_section p a {
+  color: #FFB322;
+}
